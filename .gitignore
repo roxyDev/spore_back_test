@@ -1,0 +1,8 @@
+# Ignora la carpeta node_modules
+node_modules
+.tmp/
+.idea/
+config/datastores.js
+config/datastores.js
+config/datastores.js
+.vscode/settings.json
