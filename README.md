@@ -3,6 +3,64 @@ Backend Services
 
 a [Sails v1](https://sailsjs.com) application
 
+# Visualización de Vehículos en Tiempo Real
+
+¡Bienvenido al proyecto de Visualización de Vehículos en Tiempo Real! Este proyecto te permite visualizar la ubicación de vehículos en tiempo real utilizando tecnologías modernas.
+
+## Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu máquina:
+
+- [Node.js](https://nodejs.org/) (incluye npm)
+- [Git](https://git-scm.com/)
+
+## Instalación
+
+Para clonar el repositorio y configurar el proyecto, sigue estos pasos:
+
+1. Clona el repositorio:
+
+    ```bash
+    git clone https://github.com/roxyDev/spore_back_test.git
+    cd mi-repo
+    ```
+
+2. Inicializa el proyecto:
+
+    ```bash
+    git init
+    ```
+
+3. Instala las dependencias:
+
+    ```bash
+    npm install
+    ```
+
+4. Configura el archivo de base de datos
+   Ingresa al archivo config\datastores.js de tu proyecto y personaliza la conexión a la base de datos:
+   Ejemplo:
+
+  ```bash
+   default: 
+    {
+      adapter: 'sails-mysql',
+      url: 'mysql://usuario:contraseña@localhost:3306/nombre_bd',
+      schema: true,
+    },
+   ```
+
+Asegurate de tener una conexión a mysql con el nombre de la db, el orm se encargara de hacer las tablas.
+
+
+## Ejecución
+
+Para ejecutar el proyecto, utiliza el siguiente comando:
+
+```bash
+sails lft
+```
+Listo, ahora tienes la aplicación corriendo en el puerto 1337!!
 
 ### Links
 
