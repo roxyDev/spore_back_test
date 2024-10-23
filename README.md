@@ -1,7 +1,5 @@
-# rnadmin-rn_bk
-RNAdmin backend services
-
-# crud-app
+# spore_back_test
+Backend Services
 
 a [Sails v1](https://sailsjs.com) application
 

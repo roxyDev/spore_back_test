@@ -70,6 +70,11 @@ module.exports = {
         var update =  await Vehicle.update({
               id: inputs.id
           }).set(_.omit (inputs , ['id']));
+
+          // Emitir la actualización a todos los clientes conectados
+          sails.sockets.broadcast('vehicle-update', update);
+          console.log(update)
+
           return exits.success
             ({           
               message: `Actualizado`,

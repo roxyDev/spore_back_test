@@ -1,5 +1,5 @@
 {
-  "name": "crud-app",
+  "name": "spore_back_test",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -41,15 +41,15 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/antonio/crud-app.git"
+    "url": "git://github.com/roxyDev/spore_back_test.git"
   },
-  "author": "antonio",
+  "author": "roxyDev",
   "license": "ISC",
   "engines": {
     "node": "^16.14"
   },
   "bugs": {
-    "url": "https://github.com/antonio/crud-app/issues"
+    "url": "https://github.com/roxyDev/spore_back_test/issues"
   },
-  "homepage": "https://github.com/antonio/crud-app#readme"
+  "homepage": "https://github.com/roxyDev/spore_back_test#readme"
 }

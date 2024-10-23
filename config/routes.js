@@ -31,20 +31,7 @@ module.exports.routes =
 	'GET /file/download' : 'file/download-action',
 	'DELETE /file/delete' : 'file/delete-action',
 
-  
- //######  ##     ##  ######  ########  #######  ##     ## ######## ########   ######  
-//##    ## ##     ## ##    ##    ##    ##     ## ###   ### ##       ##     ## ##    ## 
-//##       ##     ## ##          ##    ##     ## #### #### ##       ##     ## ##       
-//##       ##     ##  ######     ##    ##     ## ## ### ## ######   ########   ######  
-//##       ##     ##       ##    ##    ##     ## ##     ## ##       ##   ##         ## 
-//##    ## ##     ## ##    ##    ##    ##     ## ##     ## ##       ##    ##  ##    ## 
- //######   #######   ######     ##     #######  ##     ## ######## ##     ##  ######  
-	'POST /customer/add': 'customer/add-action',
-	'GET /customer/find': 'customer/find-action',
-	'PUT /customer/update': 'customer/update-action',
-	'PUT /customer/delete': 'customer/delete-action',
-	'GET /customer/list': 'customer/list-action',
-	'PUT /customer/disable': 'customer/disable-action',
+
 
 //##     ## ######## ##     ## ####  ######  ##       ########  ######  
 //##     ## ##       ##     ##  ##  ##    ## ##       ##       ##    ## 
@@ -61,26 +48,4 @@ module.exports.routes =
 	'PUT /vehicle/update': 'vehicle/update-action',
 	'PUT /vehicle/disable': 'vehicle/disable-action',
 
-	
-
-
-	//acciones de dashboard
-	'GET /dashboard/model-brand': 'dashboard/model-brand-action',
-	'GET /dashboard/supply-status': 'dashboard/supply-status-action',
-	'GET /dashboard/incidence': 'dashboard/incidence-action',
-	'GET /dashboard/category': 'dashboard/category-action',
-	'GET /dashboard/active-clients': 'dashboard/active-clients-action',
-	'GET /dashboard/quotation-sale': 'dashboard/quotation-sale-action',
-	'GET /dashboard/sale-orders': 'dashboard/sale-orders-action',
-	'GET /dashboard/ticket-status': 'dashboard/ticket-status-action',
-
-
-
-
-	
-
-	
-
-	//Conversion de divisa
-	'GET /currency/converter': 'currency/converter-action',
 };
