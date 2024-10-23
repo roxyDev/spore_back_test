@@ -58,7 +58,7 @@ Asegurate de tener una conexión a mysql con el nombre de la db, el orm se encar
 Para ejecutar el proyecto, utiliza el siguiente comando:
 
 ```bash
-sails lft
+sails lift
 ```
 Listo, ahora tienes la aplicación corriendo en el puerto 1337!!
 
